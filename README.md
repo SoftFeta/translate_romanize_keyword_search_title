@@ -12,7 +12,7 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 4. It cannot handle special Cyrillic characters like in Kazakh and Kyrgyz.
 5. It does not normalise accents. Basically it strips other diacritics or do nothing at all.
 6. German transliteration makes no sense.
-7. It does not work at all for systems not using Latin or Cyrillic characters.
+7. It does not work at all for systems not using Latin or Cyrillic characters. (although it claims it does)
 
 * `transliteration`
 
@@ -21,3 +21,6 @@ It does not work for languages that use the latin script. It only works for Arme
 * `google-transliteration`
 
 Does not transliterate into English.
+
+# German
+*Ölpreis* ('oil price' in English) should be normalised to *oelpreis* for searching. Likewise, *Vorgefühl* to *vorgefuehl* and *nächst* to *naechst*. *weiß* should be *weiss*.
