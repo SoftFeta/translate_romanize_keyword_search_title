@@ -22,7 +22,7 @@ Take the keyword *quarantine* for example:
 1. It requires cumbersome dependencies like PyICU, PyCLD2 (possibly needs Visual Studio on Windows as well) and Morfessor.
 2. It requires downloading some corpi.
 3. The library is no longer maintained.
-4. For most Cyrillic transliterations (like Ukrainian and Russian), the transliteration schema is obsolete and weird, for example all 'y's are merged into 'i's.
+4. For most Cyrillic transliterations (like Ukrainian and Russian), the transliteration scheme is obsolete and weird, for example all 'y's are merged into 'i's.
 5. It cannot handle special Cyrillic characters like in Kazakh and Kyrgyz.
 6. It does not normalise accents. Basically it strips other diacritics or do nothing at all.
 7. German transliteration makes no sense.
