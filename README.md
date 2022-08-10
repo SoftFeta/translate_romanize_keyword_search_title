@@ -14,7 +14,7 @@ Enter a keyword in English and it will return a list of translated and translite
 The list of 3-tuples are the intermediate results for verification. The format of the 3-tuple is `(language_code, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
 
 ## Example
-Take the keyword **quarantine** for example:
+Take the keyword *quarantine* for example:
 ![image](https://user-images.githubusercontent.com/9071916/183834721-d06f5502-a75d-44ca-89e9-954ad585e635.png)
 
 ## Comparison with other libraries
