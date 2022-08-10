@@ -19,7 +19,7 @@ The list of 3-tuples are the intermediate results for verification. The format o
 4. It cannot handle special Cyrillic characters like in Kazakh and Kyrgyz.
 5. It does not normalise accents. Basically it strips other diacritics or do nothing at all.
 6. German transliteration makes no sense.
-7. It does not work at all for systems not using Latin or Cyrillic characters. (although it claims it does)
+7. It does not work at all for systems not using Latin or Cyrillic characters. It simply returns an empty string or some weird consonants. (although it claims it does)
 
 * `transliteration`
 
