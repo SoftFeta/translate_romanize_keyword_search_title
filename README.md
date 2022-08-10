@@ -4,6 +4,13 @@ Because I need it.
 # Why?
 Most news (whether they are fake or not) websites, for instance the supermajority of sites scraped from the GDELT dataset, use **hypenated transliterated titles** as the URLs of their articles.
 
+# Functions
+```
+search(keyword) -> (list of 3-tuples, set)
+```
+Enter a keyword in English and it will return a list of translated and transliterated keywords in small letters (spaces will become hyphens). It uses Wikipedia for translation instead of unreliable Google Translate.
+The list of 3-tuples are the intermediate results for verification. The format of the 3-tuple is `(language_code, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
+
 # Comparison with other libraries
 * I have a very poor experience with the `polyglot` library because:
 1. It requires cumbersome dependencies like PyICU, PyCLD2 (possibly needs Visual Studio on Windows as well) and Morfessor.
