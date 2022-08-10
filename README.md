@@ -36,6 +36,10 @@ This library does not work for languages that use the latin script. It only work
 
 Does not transliterate into English at all.
 
+* [`unidecode`](https://github.com/avian2/unidecode)
+
+Not a transliteration library, only useful for stripping accents and diacritics. Does not handle German and Azerbaijani rules.
+
 ## German
 *Ölpreis* ('oil price' in English) should be normalised to *oelpreis* for searching. Likewise, *Vorgefühl* to *vorgefuehl* and *nächst* to *naechst*. *weiß* should be *weiss*. All existing libraries do not handle these.
 
