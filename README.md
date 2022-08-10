@@ -33,3 +33,6 @@ Rōmaji without macrons or extra vowels. So *rōmaji* will become *romaji*.
 
 # Mandarin
 Hanyu pinyin is used.
+
+# Not supported
+Arabic, all Indic languages, all Dravidian languages, and all rare languages are not supported.
