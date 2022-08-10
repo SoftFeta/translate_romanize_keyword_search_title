@@ -15,7 +15,9 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 7. It does not work at all for systems not using Latin or Cyrillic characters.
 
 * `transliteration`
+
 It does not work for languages that use the latin script. It only works for Armenian, Georgian, Greek and some languages that uses the Cyrillic script. It does not support Kazakh and Kyrgyz but a handful of articles in the GDELT dataset are in Kazakh or Kyrgyz.
 
 * `google-transliteration`
+
 Does not transliterate into English.
