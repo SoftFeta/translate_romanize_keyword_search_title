@@ -20,10 +20,13 @@ It does not work for languages that use the latin script. It only works for Arme
 
 * `google-transliteration`
 
-Does not transliterate into English.
+Does not transliterate into English at all.
 
 # German
 *Ölpreis* ('oil price' in English) should be normalised to *oelpreis* for searching. Likewise, *Vorgefühl* to *vorgefuehl* and *nächst* to *naechst*. *weiß* should be *weiss*. All existing libraries do not handle these.
 
 # Azerbaijani
 `unidecode` normalises the Azeri *ə* to *@* but news outlets use *e*.
+
+# Japanese
+Romaji without macrons or extra vowels.
