@@ -2,7 +2,7 @@
 Because I need it.
 
 ## Why?
-Most news (whether they are fake or not) websites, for instance the supermajority of sites scraped from the GDELT dataset, use **hypenated transliterated titles** as the URLs of their articles.
+Most news (whether they are fake or not) websites, for instance the supermajority of sites scraped from the [GDELT](https://www.gdeltproject.org/data.html) dataset, use **hypenated transliterated titles** as the URLs of their articles.
 
 ![image](https://user-images.githubusercontent.com/9071916/183798737-ef353816-e0f5-4153-907f-0f794c2c07ba.png)
 
