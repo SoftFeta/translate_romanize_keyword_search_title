@@ -50,7 +50,7 @@ Not a transliteration library, it is only useful for stripping accents and diacr
 Hanyu pinyin is used.
 
 ## Japanese (requires `japanese_on=True`, default is `False`)
-Rōmaji without macrons and extra vowels. So *rōmaji* becomes *romaji*.
+Rōmaji without macrons and extra vowels. So *ローマ字* becomes *romaji*.
 
 ## Not supported
 Arabic, all Indic languages, all Dravidian languages, and all rare languages are not supported. This is because virtually no news outlets in these languages use transliteration in the URLs of articles.
