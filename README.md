@@ -6,7 +6,7 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 
 # Comparison with other libraries
 * I have a very poor experience with the `polyglot` library because:
-1. It requires cumbersome dependencies like a PyICU, PyCLD2 (possibly needs Visual Studio on Windows as well) and Morfessor.
+1. It requires cumbersome dependencies like PyICU, PyCLD2 (possibly needs Visual Studio on Windows as well) and Morfessor.
 2. The library is no longer maintained.
 3. For most Cyrillic transliterations (like Ukrainian and Russian), the transliteration schema is obsolete and weird, for example all 'y's are merged into 'i's.
 4. It cannot handle special Cyrillic characters like in Kazakh and Kyrgyz.
