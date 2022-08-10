@@ -8,10 +8,10 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 
 ## Functions
 ```
-search(keyword) -> (list of 3-tuples, set)
+search(keyword) -> (list of 4-tuples, set)
 ```
 Enter a keyword in English and it will return a list of translated and transliterated keywords in small letters (spaces will become hyphens). It uses Wikipedia for translation instead of unreliable Google Translate.
-The list of 3-tuples are the intermediate results for verification. The format of the 3-tuple is `(language_code, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
+The list of 4-tuples are the intermediate results for verification. The format of the 4-tuple is `(language_code, language_name, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
 
 ## Example
 Take the keyword *quarantine* for example:
