@@ -23,7 +23,7 @@ The list of 3-tuples are the intermediate results for verification. The format o
 
 * `transliteration`
 
-It does not work for languages that use the latin script. It only works for Armenian, Georgian, Greek and some languages that uses the Cyrillic script. It does not support Kazakh and Kyrgyz but a handful of articles in the GDELT dataset are in Kazakh or Kyrgyz.
+It does not work for languages that use the latin script. It only works for Armenian, Georgian, Greek and some languages that uses the Cyrillic script. It does not support Kazakh and Kyrgyz, yet a handful of articles in the GDELT dataset are in Kazakh or Kyrgyz.
 
 * `google-transliteration`
 
