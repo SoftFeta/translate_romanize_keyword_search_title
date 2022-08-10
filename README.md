@@ -42,4 +42,4 @@ Rōmaji without macrons and extra vowels. So *rōmaji* becomes *romaji*.
 Hanyu pinyin is used.
 
 # Not supported
-Arabic, all Indic languages, all Dravidian languages, and all rare languages are not supported.
+Arabic, all Indic languages, all Dravidian languages, and all rare languages are not supported. This is because virtually no news outlets in these languages use transliteration in the URLs of articles.
