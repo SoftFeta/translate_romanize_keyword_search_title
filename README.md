@@ -8,7 +8,7 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 
 ## Functions
 ```
-search(keyword) -> (list of 4-tuples, set)
+search(keyword, mandarin_on=False, japanese_on=False) -> (list of 4-tuples, set)
 ```
 Enter a keyword in English and it will return a list of translated and transliterated keywords in small letters (spaces will become hyphens). It uses Wikipedia for translation instead of unreliable Google Translate.
 The list of 4-tuples are the intermediate results for verification. The format of the 4-tuple is `(language_code, language_name, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
@@ -42,11 +42,11 @@ Does not transliterate into English at all.
 ## Azerbaijani
 [`unidecode`](https://github.com/avian2/unidecode) normalises the Azeri *ə* to *@* but news outlets use *e*.
 
-## Japanese
-Rōmaji without macrons and extra vowels. So *rōmaji* becomes *romaji*.
-
-## Mandarin
+## Mandarin (requires `mandarin_on=True`, default is `False`)
 Hanyu pinyin is used.
+
+## Japanese (requires `japanese_on=True`, default is `False`)
+Rōmaji without macrons and extra vowels. So *rōmaji* becomes *romaji*.
 
 ## Not supported
 Arabic, all Indic languages, all Dravidian languages, and all rare languages are not supported. This is because virtually no news outlets in these languages use transliteration in the URLs of articles.
