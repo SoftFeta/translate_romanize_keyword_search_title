@@ -29,7 +29,7 @@ Does not transliterate into English at all.
 `unidecode` normalises the Azeri *ə* to *@* but news outlets use *e*.
 
 # Japanese
-Rōmaji without macrons or extra vowels. So *rōmaji* will become *romaji*.
+Rōmaji without macrons and extra vowels. So *rōmaji* becomes *romaji*.
 
 # Mandarin
 Hanyu pinyin is used.
