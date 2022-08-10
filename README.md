@@ -23,7 +23,7 @@ Take the keyword *quarantine* for example:
 2. It requires downloading some corpi.
 3. The library is no longer maintained.
 4. For most Cyrillic transliterations (like Ukrainian and Russian), the transliteration scheme is obsolete and weird, for example all 'y's are merged into 'i's.
-5. It cannot handle special Cyrillic characters like in Kazakh and Kyrgyz.
+5. It cannot handle special Cyrillic characters like those in Kazakh and Kyrgyz.
 6. It does not normalise accents. Basically it strips other diacritics or do nothing at all.
 7. German transliteration makes no sense.
 8. It does not work at all for systems not using Latin or Cyrillic characters. It simply returns an empty string or some weird consonants. (although it claims it does)
