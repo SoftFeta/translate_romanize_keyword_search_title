@@ -1,4 +1,4 @@
-# translate_transliterate_keyword_search_title
+# translate_romanize_keyword_search_title
 Because I need it.
 
 ## Why?
@@ -10,7 +10,7 @@ Most news (whether they are fake or not) websites, for instance the supermajorit
 ```
 search(keyword, mandarin_on=False, japanese_on=False) -> (list of 4-tuples, set)
 ```
-Enter a keyword in English and it will return a list of translated and transliterated keywords in small letters (spaces will become hyphens). It uses Wikipedia for translation instead of unreliable Google Translate.
+Enter a keyword in English and it will return a list of translated and transliterated (romanized) keywords in small letters (spaces will become hyphens). It uses Wikipedia for translation instead of unreliable Google Translate.
 The list of 4-tuples are the intermediate results for verification. The format of the 4-tuple is `(language_code, language_name, translated_but_not_transliterated, translated_and_transliterated)`. The set are the translated and transliterated results without repetition. The original keyword will be included in the set.
 
 ## Example
